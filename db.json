@@ -1,0 +1,56 @@
+{
+  "productList": [
+    {
+      "idName": "1",
+      "title": "dsa",
+      "desc": "d",
+      "id": 1
+    },
+    {
+      "idName": "2",
+      "title": "some ",
+      "desc": "fad",
+      "id": 2
+    },
+    {
+      "idName": "3",
+      "title": "surya kumar",
+      "desc": "i ",
+      "id": 3
+    },
+    {
+      "idName": "3",
+      "title": "fdf",
+      "desc": "fdf",
+      "id": 4
+    },
+    {
+      "idName": "l,l,",
+      "title": "mkm",
+      "desc": "nm n ",
+      "id": 5
+    },
+    {
+      "idName": "dsd",
+      "title": "wr",
+      "desc": "ref",
+      "id": 6
+    },
+    {
+      "idName": "gfg",
+      "title": "sgdsf",
+      "desc": "sfs",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

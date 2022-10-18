@@ -1,0 +1,39 @@
+<h1 mat-dialog-title>add issue</h1>
+
+<div mat-dialog-content>
+     <form [formGroup]="productForm">
+
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>ENTER THE ID</mat-label>
+          <input formControlName="idName" matInput placeholder="Placeholder">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+            <mat-label>TITLE</mat-label>
+            <input matInput formControlName="title" placeholder="Placeholder">
+            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+
+
+          <mat-form-field appearance="outline">
+            <mat-label>DISCRIPTION</mat-label>
+            <textarea matInput formControlName="desc"></textarea>
+          </mat-form-field>
+    </p>
+
+
+     </form>
+
+
+</div>
+<div mat-dialog-actions [align]="'end'">
+
+    <button mat-raised-button color="warn" >Close</button>
+    <button mat-raised-button color="primary"  style="margin-left: 15px;" (click)="addProduct()">{{actionBtn}}</button>
+ 
+</div>
